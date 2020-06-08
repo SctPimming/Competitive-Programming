@@ -1,6 +1,19 @@
 {
-    "python.pythonPath": "E:\\python\\python.exe",
+    "python.pythonPath": "C:\\Users\\PC\\AppData\\Local\\Programs\\Python\\Python38-32\\python.exe",
     "python.linting.pylintEnabled": true,
-    "python.linting.enabled": true,
-    "C_Cpp.errorSquiggles": "Disabled"
+    "python.linting.enabled": false,
+    "C_Cpp.errorSquiggles": "Disabled",
+    "C_Cpp.default.cppStandard": "c++11",
+    "C_Cpp.default.cStandard": "c11",
+    "files.associations": {
+        "iostream": "cpp",
+        "random": "cpp",
+        "array": "cpp",
+        "bitset": "cpp",
+        "string_view": "cpp",
+        "initializer_list": "cpp",
+        "regex": "cpp",
+        "utility": "cpp",
+        "valarray": "cpp"
+    }
 }
