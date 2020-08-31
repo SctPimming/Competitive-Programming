@@ -38,7 +38,7 @@ int main(){
 	}
 	cout << u << spc << t << spc << (rand()%1000)+1 << nline;
 	edge_num++;	
-	dbg(edge_num);
+	//dbg(edge_num);
 	while(edge_num < m){
 		u = rand()%n;
 		v = rand()%n;

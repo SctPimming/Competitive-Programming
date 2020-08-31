@@ -29,7 +29,6 @@ int main(){
             getline(cin, file_name);    
             int val = file_name[0];
             for(int idx = 1; idx != sz(file_name); ++idx) val ^= file_name[idx];
-            //dbg(val);
             hash_table.push_back(val);
             st.insert(file_name);
         }
